@@ -97,9 +97,6 @@ export default {
         .then((response) => {
           this.resultData = response.data.results
         })
-        .catch((err) => {
-          console.log(err)
-        })
     },
   },
 }
